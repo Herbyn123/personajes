@@ -67,46 +67,6 @@
         text-align: justify;
     }
 
-    .links {
-        background-color: #fff;
-        padding: 20px;
-        margin-bottom: 30px;
-        border-radius: 10px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        text-align: center;
-    }
-
-    .links h2 {
-        margin-bottom: 15px;
-        color: #1e1e1e;
-    }
-
-    .links ul {
-        list-style: none;
-        padding: 0;
-    }
-
-    .links ul li {
-        margin: 10px 0;
-    }
-
-    .links ul li a {
-        text-decoration: none;
-        color: #0077cc;
-        font-weight: bold;
-    }
-
-    .links ul li a:hover {
-        text-decoration: underline;
-    }
-
-    footer {
-        text-align: center;
-        padding: 15px;
-        background-color: #67ee13;
-        color: #fff;
-    }
-
     /* RESPONSIVO */
     @media (max-width: 650px) {
         .card img {
@@ -120,6 +80,15 @@
             font-size: 1.5em;
         }
     }
+
+    /* FIX imagen blanca (AGREGADO) */
+    .card {
+        background-color: #1e1e1e;
+    }
+
+    .card img {
+        background-color: #333;
+    }
 </style>
 </head>
 
@@ -127,18 +96,24 @@
 
 <header>
     <h1>Los personajes favoritos de mi hermana</h1>
-    
 </header>
 
 <main>
 
     <div class="card">
-       <img src="img/gamariki.png" alt="Gamariki">
+        <img src="img/gamariki.png" alt="Gamariki">
         <div class="card-content">
             <h2>Gamariki</h2>
-            <p>Gamariki es un personaje ficticio creado como guerrero mítico en un universo paralelo de fantasía. Conocido por su fuerza sobrehumana y su capacidad de manipular la energía vital de su entorno, Gamariki se ha ganado tanto aliados como enemigos temibles. Su armadura, hecha de cristales energéticos, refleja cada batalla que ha librado a lo largo de su historia, mientras que su personalidad es una mezcla de sabiduría ancestral y orgullo guerrero. En las leyendas de su mundo, Gamariki ha sido responsable de decisiones polémicas que afectaron reinos enteros, haciendo que su nombre sea recordado tanto por su poder como por sus errores estratégicos.</p>
+            <p>
+                Gamariki es un personaje ficticio creado como guerrero mítico en un universo paralelo de fantasía.
+                Conocido por su fuerza sobrehumana y su capacidad de manipular la energía vital de su entorno,
+                Gamariki se ha ganado tanto aliados como enemigos temibles.
+            </p>
         </div>
     </div>
+
+</main>
+
 
     <div class="card">
         <img src="https://people.com/thmb/Bo8MTMyoT2JvQNg8fULYjTBEpow=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(511x0:513x2)/lala-1024-589f1474607b4defb07769b3da4bbbb5.jpg" alt="Personaje 2">
